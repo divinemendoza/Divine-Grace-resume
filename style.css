@@ -1,0 +1,130 @@
+body{
+	background: lemonchiffon;
+}
+
+p{
+	font-family: Sitka Banner;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+img{
+	border-radius: 5%;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 0px 20px 0px 100px;
+	padding: 0;
+	overflow: hidden;
+	background-color: Peachpuff;
+		font-family: Algerian;
+		list-style: none;
+		display: grid;
+		grid-gap: 5px;
+		grid-template-columns: repeat(6,1fr);	
+}
+
+ul.menu li a{
+	display: block;
+	color: darkgreen;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Bernard MT Condensed;
+}
+
+ul.menu li a:hover:not(.active) {color: mediumseagreen;}
+
+.top {
+	margin:0px 0px 0px 100px;
+	background: lemonchiffon;
+	color: blue;
+	text-align: left;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	font-family: Franklin Gothic Medium;
+}
+
+.fab{
+		padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+		background: blue;
+	color: white;
+}
+
+.far{
+	adding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+		background: blue;
+	color: white;
+}
+
+.imlogo {
+	background: aquamarine;
+	color: lightsalmon;
+	text-align: left;
+}
+
+.personal background{
+	background: pink;
+	color: pink;
+	text-align: left;
+	padding-left: 30px;
+	margin: 0px 0px 0px 100px;
+}
+
+.educ{
+	background: khaki;
+	color: crimson;
+	text-align: center;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+	font-family: High Tower Text;
+}
+
+.skills{
+	background: lemonchiffon;
+	color: darkgreen;
+	text-align: center;
+	margin: 0px 2px 0px 100px;
+	padding-left: 30px;
+	font-family: Impact;
+}
+
+.work{
+	background: khaki;
+	color: dimgray;
+	text-align: center;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+
+.cr{
+	background: lemonchiffon;
+	color: mediumvioletred;
+	text-align: center;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+	font-family: Perpetua;
+}
+
+.about{
+	background: lemonchiffon;
+	color: black;
+	text-align: center;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+
+
